@@ -3,6 +3,7 @@
 
 /* 共通 */
 
+
 body {
   padding-top: 60px;
 }
@@ -22,6 +23,48 @@ textarea {
 .center h1 {
   margin-bottom: 10px;
 }
+
+/* トップ */
+
+.jumbotron {
+  width: 100%;
+  background-color: #fff;
+}
+
+.left_contents {
+  float:left;
+  width: 50%;
+  background-color: #fff;
+  text-align: center;
+  h1 {
+    font-size: 3.0em;
+    font-style: italic;
+    font-weight: bold;
+  }
+  p {
+    font-size: 1.1em;
+  }
+}
+
+.right_contents {
+  float:right;
+  width: 50%;
+  background-color: #fff;
+  text-align: center;
+  
+  h1 {
+    font-size: 2.4em;
+  }
+  
+  .label-login{
+    float:left;
+  }
+  
+  .checkbox.inline.checkbox-login{
+    float:left;
+  }
+}
+
 
 /* タイポグラフィ */
 
@@ -46,26 +89,50 @@ h2 {
 }
 
 p {
-  font-size: 1.1em;
+  font-size: 0.7em;
   line-height: 1.7em;
 }
 
 /* ヘッダー */
+.navbar.navbar-fixed-top.navbar-inverse {
+  background-color: #008080;
+}
 
 #logo {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
+  font-style: italic;
   color: #fff;
-  text-transform: uppercase;
+  text-transform: capitalize;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
 }
 
 #logo:hover {
-  color: #fff;
+  color: #808080;
   text-decoration: none;
+}
+
+#header-list {
+  color: #fff;
+  font-weight: bold;
+}
+
+#header-list:hover {
+  color: #808080;
+  
+}
+
+#dropdown-title{
+  color: #fff;
+  font-weight: bold;
+}
+
+#dropdown-title:hover {
+  color: #808080;
+  
 }
 
 /* デバッグウインドウ */
