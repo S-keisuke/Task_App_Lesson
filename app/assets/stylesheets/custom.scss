@@ -163,3 +163,23 @@ p {
     color: $state-danger-text;
   }
 }
+
+/* ユーザー詳細画面 */
+
+.table.table-hover{
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.detail-head {
+  text-align: center;
+  background-color: #EEEEEE;
+}
+
+table, td, th {
+  border: 1px #C0C0C0 solid;
+}
+
+th {
+  width: 50;
+}
